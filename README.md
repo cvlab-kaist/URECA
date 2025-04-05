@@ -29,6 +29,7 @@
 - [x] Pre-trained weights (Apr 6, 2024)
 - [x] Code of interactive demo (Apr 6, 2024)
 - [x] Demo update (Apr 6, 2024)
+- [ ] Release ArXiv paper
 - [ ] Evaluation Code 
 - [ ] Training and Test Dataset release
 
