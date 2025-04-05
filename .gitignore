@@ -1,0 +1,12 @@
+﻿outputs*
+*.out
+*.log
+log*.txt
+slurm*.out
+*.jsonl
+*.json
+__pycache__
+slurms
+cache
+ours_inference
+output_symlinks
