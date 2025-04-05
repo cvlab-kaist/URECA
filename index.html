@@ -60,9 +60,9 @@
                 <span class="author-block">
                   <a href="https://junwankimm.github.io/" target="_blank">Junwan Kim</a><sup>2*</sup>,</span>
                   <span class="author-block">
-                  <a href="https://github.com/yoon-heez" target="_blank">Heeji Yoon</a><sup>3*</sup>,</span>
+                  <a href="https://github.com/yoon-heez" target="_blank">Heeji Yoon</a><sup>3</sup>,</span>
                   <span class="author-block">
-                    <a href="https://crepejung00.github.io/" target="_blank">Jaewoo Jung</a><sup>3*</sup>,
+                    <a href="https://crepejung00.github.io/" target="_blank">Jaewoo Jung</a><sup>3</sup>,
                   </span>
                   <span class="author-block">
                     <a href="https://cvlab.kaist.ac.kr/members/faculty" target="_blank">Seungryong Kim</a><sup>3†</sup>
@@ -144,12 +144,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Region-level captioning aims to generate natural language descriptions for specific image regions while highlighting their distinguishing features. However, existing methods struggle to produce unique captions across multi-granularity, limiting their real-world applicability.
-              To address this, we introduce URECA dataset, a large-scale dataset designed for multi-granularity region captioning. Our dataset ensures a unique mapping between regions and captions by incorporating a diverse range of objects, parts, and backgrounds beyond salient regions.
-              This is achieved through an automated data curation pipeline that generates distinctive captions while preserving contextual relationships.
-              Building on this dataset, we propose URECA, a novel captioning model that effectively encodes multi-granularity regions while preserving essential properties such as position and shape.
-              Our approach introduces dynamic mask modeling and a high-resolution mask encoder to enhance caption uniqueness. Experiments show that URECA achieves state-of-the-art performance on URECA dataset and generalizes well to existing region-level captioning benchmarks.
-              The code will be made available.
+            Region-level captioning aims to generate natural language descriptions for specific image regions while highlighting their distinguishing features.
+            However, existing methods struggle to produce unique captions across multi-granularity, limiting their real-world applicability.
+            To address the need for detailed region-level understanding, we introduce URECA dataset, a large-scale dataset tailored for multi-granularity region captioning.
+            Unlike prior datasets that focus primarily on salient objects, URECA dataset ensures a unique and consistent mapping between regions and captions by incorporating a diverse set of objects, parts, and background elements.
+            Central to this is a stage-wise data curation pipeline, where each stage incrementally refines region selection and caption generation.
+            By leveraging Multimodal Large Language Models (MLLMs) at each stage, our pipeline produces distinctive and contextually grounded captions with improved accuracy and semantic diversity.
+Building upon this dataset, we present URECA, a novel captioning model designed to effectively encode multi-granularity regions.
+            URECA maintains essential spatial properties such as position and shape through simple yet impactful modifications to existing MLLMs, enabling fine-grained and semantically rich region descriptions.
+            Our approach introduces dynamic mask modeling and a high-resolution mask encoder to enhance caption uniqueness.
+            Experiments show that URECA achieves state-of-the-art performance on URECA dataset and generalizes well to existing region-level captioning benchmarks.
           </p>
         </div>
       </div>
