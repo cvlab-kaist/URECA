@@ -20,7 +20,7 @@
 
 ## 📰 News
 * **2025-04-06:** [URECA](https://github.com/cvlab-kaist/URECA) is released.
-* **2025-04--6:** Training Code, Data collection pipeline, and URECA Model are released.
+* **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
 
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
