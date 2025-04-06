@@ -139,26 +139,18 @@ body {
 }
 
 .colorful_text {
-  background: linear-gradient(
-      90deg,
-      #ff6ec4,
-      #7873f5,
-      #4ade80,
-      #22d3ee,
-      #ff9f43,
-      #ff6ec4
-  );
-  background-size: 300%;
-  background-clip: text;
-  -webkit-background-clip: text; /* Needed for Safari */
-  color: transparent;
-  transition: background-position 0.8s ease, transform 0.4s ease;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #ffdd59, #54a0ff);
+    background-clip: text;
+    color: transparent;
+    transition: background-position 0.5s ease, transform 0.3s ease;
+    /* background-size: 200% 200%; */
+    background-size: 150%;
 }
 
 /* Hover effect for "colorful_text" gradient */
 .colorful_text:hover {
-  background-position: right center; /* Animate gradient flow */
-  transform: scale(1.1) rotate(0.5deg); /* Add a slight rotate for more depth */
+  background-position: right center; /* Shifts the gradient on hover */
+  transform: scale(1.1); /* Slight zoom effect */
 }
 
 /* .colorful_text {
