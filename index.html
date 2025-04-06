@@ -252,7 +252,7 @@
       </div>
     </div>
     <div class="hero-body">
-      <img src="assets/zeroshot_table.png" alt="Method image" class="method" style="margin-left: auto; margin-right: auto; display: block; width: 60%; height: 60%">
+      <img src="assets/zeroshot_table.png" alt="Method image" class="teaser-image" style="margin-left: auto; margin-right: auto; display: block; width: 60%; height: 60%">
     </div>
   </div>
 </section>
@@ -293,5 +293,41 @@
 </footer>
 
 <!-- Statcounter tracking code -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll(".teaser-image");
+    const zoomOverlay = document.createElement("div");
+    zoomOverlay.classList.add("zoom-overlay");
+
+    const zoomImage = document.createElement("img");
+    zoomOverlay.appendChild(zoomImage);
+    document.body.appendChild(zoomOverlay);
+
+    images.forEach((img) => {
+      // Preload high-res image if available
+      const highResSrc = img.getAttribute("data-highres");
+      if (highResSrc) {
+        const preloadImg = new Image();
+        preloadImg.src = highResSrc;
+      }
+
+      img.addEventListener("click", () => {
+        zoomImage.src = highResSrc || img.src;
+        zoomOverlay.classList.add("active");
+      });
+    });
+
+    // Close the zoom overlay when clicking anywhere on it.
+    zoomOverlay.addEventListener("click", () => {
+      zoomOverlay.classList.remove("active");
+      zoomImage.src = "";
+    });
+
+    // Allow closing with the ESC key.
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") zoomOverlay.classList.remove("active");
+    });
+  });
+</script>
   </body>
   </html>
