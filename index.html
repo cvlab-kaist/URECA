@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
@@ -150,7 +150,7 @@
             Unlike prior datasets that focus primarily on salient objects, URECA dataset ensures a unique and consistent mapping between regions and captions by incorporating a diverse set of objects, parts, and background elements.
             Central to this is a stage-wise data curation pipeline, where each stage incrementally refines region selection and caption generation.
             By leveraging Multimodal Large Language Models (MLLMs) at each stage, our pipeline produces distinctive and contextually grounded captions with improved accuracy and semantic diversity.
-Building upon this dataset, we present URECA, a novel captioning model designed to effectively encode multi-granularity regions.
+            Building upon this dataset, we present URECA, a novel captioning model designed to effectively encode multi-granularity regions.
             URECA maintains essential spatial properties such as position and shape through simple yet impactful modifications to existing MLLMs, enabling fine-grained and semantically rich region descriptions.
             Our approach introduces dynamic mask modeling and a high-resolution mask encoder to enhance caption uniqueness.
             Experiments show that URECA achieves state-of-the-art performance on URECA dataset and generalizes well to existing region-level captioning benchmarks.
@@ -178,18 +178,24 @@ Building upon this dataset, we present URECA, a novel captioning model designed 
         <div class="hero-body">
           <img src="assets/ureca_data.png" alt="Method image" class="method">
         </div>
-        <div class="columns is-centered">
-          <div class="column is-full-width">
-            <h2 class="title is-3 has-text-centered">Dataset Visualization</h2>
-          </div>
-        </div>
-        <div class="hero-body">
-          <img src="assets/data_1.png" alt="Method image" class="method">
-        </div>
 </div>
 </section>
 
 <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Dataset Visualization</h2>
+      </div>
+      <div class="hero-body">
+          <img src="assets/data_1.png" alt="Method image" class="method">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -202,39 +208,6 @@ Building upon this dataset, we present URECA, a novel captioning model designed 
     </div>
   </div>
 </section>
-
-
-
-<section class="section hero">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
-        <h2 class="content has-text-justified">
-          Performance comparison of URECA with baseline methods and previous models on various evaluation metrics, including
-          BLEU, ROUGE, METEOR, and BERTScore. The results show that URECA outperforms other methods across all metrics on URECA testset,
-          demonstrating its superior ability to generate unique captions for multi-granularity regions. Note that comparison methods are all trained on URECA dataset.
-        </h2>
-      </div>
-    </div>
-    <div class="hero-body">
-      <img src="assets/main_table.png" alt="Method image" class="method">
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Zeroshot Performance</h2>
-        <h2 class="content has-text-justified">
-          Quantitative results on region-level captioning task.
-          Performance comparison on the METEOR for the RefCOCOg and Visual Genome datasets. (Zero-Shot) refers to zero-shot transfer.
-        </h2>
-      </div>
-    </div>
-    <div class="hero-body">
-      <img src="assets/zeroshot_table_resized.png" alt="Method image" class="method" style="margin-left: auto; margin-right: auto; display: block;">
-    </div>
-  </div>
-</section>
-
 
 
 <section class="section hero is-light">
@@ -255,6 +228,35 @@ Building upon this dataset, we present URECA, a novel captioning model designed 
 </section>
 
 
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+        <h2 class="content has-text-justified">
+          Performance comparison of URECA with baseline methods and previous models on various evaluation metrics, including
+          BLEU, ROUGE, METEOR, and BERTScore. The results show that URECA outperforms other methods across all metrics on URECA testset,
+          demonstrating its superior ability to generate unique captions for multi-granularity regions. Note that comparison methods are all trained on URECA dataset.
+        </h2>
+      </div>
+    </div>
+    <div class="hero-body">
+      <img src="assets/main_table.png" alt="Method image" class="method">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Zero-shot Performance</h2>
+        <h2 class="content has-text-justified">
+          Quantitative results on region-level captioning task.
+          Performance comparison on the METEOR for the RefCOCOg and Visual Genome datasets. (Zero-Shot) refers to zero-shot transfer.
+        </h2>
+      </div>
+    </div>
+    <div class="hero-body">
+      <img src="assets/zeroshot_table.png" alt="Method image" class="method" style="margin-left: auto; margin-right: auto; display: block; width: 80%; height: 80%">
+    </div>
+  </div>
+</section>
 
 
 <!--BibTex citation -->
