@@ -1,7 +1,7 @@
 <div align="center">
 <h1>URECA💡: Unique Region Caption Anything</h1>
 
-[**Sangbeom Lim**](https://sangbeomlim.github.io/)<sup>1\*</sup> · [**Junwan Kim**](https://junwankimm.github.io/)<sup>2\*</sup> · [**Heeji Yoon**](https://github.com/yoon-heez)<sup>3</sup> · [**Jaewoo Jung**](https://crepejung00.github.io/)<sup>3</sup> · [**Seungryong Kim**](https://cvlab.korea.ac.kr)<sup>3&dagger;</sup>
+[**Sangbeom Lim**](https://sangbeomlim.github.io/)<sup>1\*</sup> · [**Junwan Kim**](https://junwankimm.github.io/)<sup>2\*</sup> · [**Heeji Yoon**](https://github.com/yoon-heez)<sup>3</sup> · [**Jaewoo Jung**](https://crepejung00.github.io/)<sup>3</sup> · [**Seungryong Kim**](https://cvlab.kaist.ac.kr/members/faculty)<sup>3&dagger;</sup>
 
 <sup>1</sup>Korea University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Yonsei University&emsp;&emsp;&emsp;&emsp;<sup>3</sup>KAIST AI
 
@@ -23,6 +23,7 @@
 ## 📰 News
 * **2025-04-06:** [URECA](https://github.com/cvlab-kaist/URECA) is released.
 * **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
+* **2025-04-08:** Our [ArXiv Paper](https://arxiv.org/abs/2504.05305) is released!
 
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
