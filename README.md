@@ -3,15 +3,17 @@
 
 [**Sangbeom Lim**](https://sangbeomlim.github.io/)<sup>1\*</sup> · [**Junwan Kim**](https://junwankimm.github.io/)<sup>2\*</sup> · [**Heeji Yoon**](https://github.com/yoon-heez)<sup>3</sup> · [**Jaewoo Jung**](https://crepejung00.github.io/)<sup>3</sup> · [**Seungryong Kim**](https://cvlab.korea.ac.kr)<sup>3&dagger;</sup>
 
-<sup>1</sup>Korea University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Yonsei University&emsp;&emsp;&emsp;&emsp;<sup>3</sup>KAIST
+<sup>1</sup>Korea University&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Yonsei University&emsp;&emsp;&emsp;&emsp;<sup>3</sup>KAIST AI
 
 *: Equal Contribution <br>
 &dagger;: Corresponding Author
 
 **ArXiv 2025**
 
-[//]: # (<a href="https://arxiv.org/abs/2412.01471"><img src="https://img.shields.io/badge/arXiv-2412.01471-%23B31B1B"></a>)
+<a href="https://arxiv.org/abs/2504.05305"><img src="https://img.shields.io/badge/arXiv-2504.05305-%23B31B1B"></a>
 <a href="https://cvlab-kaist.github.io/URECA"><img src="https://img.shields.io/badge/Project%20Page-online-brightgreen"></a>
+<a href="https://huggingface.co/spaces/junwann/URECA"><img src="https://img.shields.io/badge/Dataset-Access-87CEEB">
+
 
 <p float='center'><img src="assets/ureca_teaser.png" width="80%" /></p>
 <span style="color: green; font-size: 1.3em; font-weight: bold;">URECA can generate <span style="color:darkolivegreen;font-weight:bold;">Unique Caption</span> for <span style="font-weight:bold;">Any Granularity Regions!</span></span>
@@ -25,11 +27,11 @@
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
 ## 🔥 TODO
-- [x] Train Code (Apr 6, 2024)
-- [x] Pre-trained weights (Apr 6, 2024)
-- [x] Code of interactive demo (Apr 6, 2024)
-- [x] Demo update (Apr 6, 2024)
-- [ ] Release ArXiv paper
+- [x] Train Code (Apr 6, 2025)
+- [x] Pre-trained weights (Apr 6, 2025)
+- [x] Code of interactive demo (Apr 6, 2025)
+- [x] Demo update (Apr 6, 2025)
+- [x] Release ArXiv paper (Apr 8, 2025)
 - [ ] Evaluation Code 
 - [ ] Training and Test Dataset release
 
@@ -72,25 +74,16 @@ python gradio_demo/app.py
 
 
 
-[//]: # (## 📚 Citing this Work)
-
-[//]: # (Please use the following bibtex to cite our work:)
-
-[//]: # (```)
-
-[//]: # (@article{lim2024multi,)
-
-[//]: # (  title={Multi-Granularity Video Object Segmentation},)
-
-[//]: # (  author={Lim, Sangbeom and Kim, Seongchan and An, Seungjun and Cho, Seokju and Seo, Paul Hongsuck and Kim, Seungryong},)
-
-[//]: # (  journal={arXiv preprint arXiv:2412.01471},)
-
-[//]: # (  year={2024})
-
-[//]: # (})
-
-[//]: # (```)
+## 📚 Citing this Work
+Please use the following bibtex to cite our work:
+```
+@article{lim2025ureca,
+  title={URECA: Unique Region Caption Anything},
+  author={Lim, Sangbeom and Kim, Junwan and Yoon, Heeji and Jung, Jaewoo and Kim, Seungryong},
+  journal={arXiv preprint arXiv:2504.05305},
+  year={2025}
+}
+```
 
 ## 🙏 Acknowledgement
 This project is largely based on the [InternVL repository](https://github.com/OpenGVLab/InternVL). Thanks to the authors for their invaluable work and contributions.
