@@ -24,7 +24,7 @@
 * **2025-04-06:** [URECA](https://github.com/cvlab-kaist/URECA) is released.
 * **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
 * **2025-04-08:** Our [ArXiv Paper](https://arxiv.org/abs/2504.05305) is released!
-
+* 🌟 Featured: URECA is now highlighted as a **Paper of the Day** on [Daily Papers](https://huggingface.co/papers/2504.05305) page on HuggingFace! 🌟  
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
 ## 🔥 TODO
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 <p float='center'><img src="assets/demo_example.png" width="80%" /></p>
 
 Please Download [SAM](https://github.com/facebookresearch/segment-anything) and place it on models folder.  
-Download URECA Model by following bellow script.
+Download URECA Model by following below script.
 ```bash
 mkdir models
 cd models
