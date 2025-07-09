@@ -25,6 +25,7 @@
 * **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
 * **2025-04-08:** Our [ArXiv Paper](https://arxiv.org/abs/2504.05305) is released!
 * 🌟 Featured: URECA is now highlighted as a **Paper of the Day** on [Daily Papers](https://huggingface.co/papers/2504.05305) page on HuggingFace! 🌟
+* **2025-07-08:** URECA training dataset is released!
 
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
@@ -34,8 +35,9 @@
 - [x] Code of interactive demo (Apr 6, 2025)
 - [x] Demo update (Apr 6, 2025)
 - [x] Release ArXiv paper (Apr 8, 2025)
+- [x] Training Dataset release (Jul 8, 2025)
 - [ ] Evaluation Code 
-- [ ] Training and Test Dataset release
+- [ ] Test Dataset release
 
 ## Environment
 ```bash
@@ -73,6 +75,11 @@ python gradio_demo/app.py
 [//]: # (- **[URECA Evaluation]&#40;./evaluation/EVAL.md&#41;**)
 
 [//]: # (## Datasets)
+
+## Dataset
+### Training dataset
+We release our URECA training dataset that has **138,152** mask-caption pair! In order to download image-mask pair, please download [SA-1B](https://ai.meta.com/datasets/segment-anything/).
+Get URECA training caption file from [Huggingface Link](https://huggingface.co/datasets/SammyLim/URECA/tree/main)!
 
 
 
