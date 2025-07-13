@@ -21,11 +21,11 @@
 
 
 ## 📰 News
-* **2025-04-06:** [URECA](https://github.com/cvlab-kaist/URECA) is released.
-* **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
+* **2025-07-08:** URECA training dataset is released!
 * **2025-04-08:** Our [ArXiv Paper](https://arxiv.org/abs/2504.05305) is released!
 * 🌟 Featured: URECA is now highlighted as a **Paper of the Day** on [Daily Papers](https://huggingface.co/papers/2504.05305) page on HuggingFace! 🌟
-* **2025-07-08:** URECA training dataset is released!
+* **2025-04-06:** Training Code, Data collection pipeline, and URECA Model are released.
+* **2025-04-06:** [URECA](https://github.com/cvlab-kaist/URECA) is released.
 
 **Please stay tuned for a URECA Dataset and Evaluation Code!**
 
